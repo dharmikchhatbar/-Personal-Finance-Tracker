@@ -1,0 +1,92 @@
+2025-01-09T02:13:16.442-06:00  INFO 19820 --- [restartedMain] c.d.f.r.ReportServiceApplication         : Starting ReportServiceApplication using Java 19.0.2 with PID 19820 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/reporting-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T02:13:16.443-06:00  INFO 19820 --- [restartedMain] c.d.f.r.ReportServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T02:13:16.475-06:00  INFO 19820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T02:13:16.475-06:00  INFO 19820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T02:13:16.880-06:00  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2025-01-09T02:13:16.884-06:00  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T02:13:16.884-06:00  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T02:13:16.905-06:00  INFO 19820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T02:13:16.905-06:00  INFO 19820 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 430 ms
+2025-01-09T02:13:16.928-06:00  WARN 19820 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reportController' defined in file [/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/reporting-service/target/classes/com/dharmik/finance/reporting/ReportController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'reportService' defined in file [/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/reporting-service/target/classes/com/dharmik/finance/reporting/ReportService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-01-09T02:13:16.929-06:00  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-01-09T02:13:16.934-06:00  INFO 19820 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-09T02:13:16.943-06:00 ERROR 19820 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.dharmik.finance.reporting.ReportService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2025-01-09T02:14:06.437-06:00  INFO 19886 --- [restartedMain] c.d.f.r.ReportServiceApplication         : Starting ReportServiceApplication using Java 19.0.2 with PID 19886 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/reporting-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T02:14:06.438-06:00  INFO 19886 --- [restartedMain] c.d.f.r.ReportServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T02:14:06.458-06:00  INFO 19886 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T02:14:06.458-06:00  INFO 19886 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T02:14:06.793-06:00  INFO 19886 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2025-01-09T02:14:06.796-06:00  INFO 19886 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T02:14:06.796-06:00  INFO 19886 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T02:14:06.816-06:00  INFO 19886 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T02:14:06.816-06:00  INFO 19886 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 358 ms
+2025-01-09T02:14:06.835-06:00  WARN 19886 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reportController' defined in file [/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/reporting-service/target/classes/com/dharmik/finance/reporting/ReportController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'reportService' defined in file [/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/reporting-service/target/classes/com/dharmik/finance/reporting/ReportService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-01-09T02:14:06.836-06:00  INFO 19886 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-01-09T02:14:06.841-06:00  INFO 19886 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-09T02:14:06.851-06:00 ERROR 19886 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.dharmik.finance.reporting.ReportService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2025-01-09T02:20:26.125-06:00  INFO 19966 --- [restartedMain] c.d.f.r.ReportServiceApplication         : Starting ReportServiceApplication using Java 19.0.2 with PID 19966 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/reporting-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T02:20:26.126-06:00  INFO 19966 --- [restartedMain] c.d.f.r.ReportServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T02:20:26.145-06:00  INFO 19966 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T02:20:26.145-06:00  INFO 19966 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T02:20:26.476-06:00  INFO 19966 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2025-01-09T02:20:26.480-06:00  INFO 19966 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T02:20:26.480-06:00  INFO 19966 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T02:20:26.499-06:00  INFO 19966 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T02:20:26.499-06:00  INFO 19966 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 354 ms
+2025-01-09T02:20:26.573-06:00 DEBUG 19966 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-09T02:20:26.603-06:00 DEBUG 19966 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-01-09T02:20:26.608-06:00 DEBUG 19966 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-01-09T02:20:26.611-06:00 DEBUG 19966 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-09T02:20:26.633-06:00  WARN 19966 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-01-09T02:20:26.645-06:00  INFO 19966 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2025-01-09T02:20:26.650-06:00  INFO 19966 --- [restartedMain] c.d.f.r.ReportServiceApplication         : Started ReportServiceApplication in 0.681 seconds (process running for 0.954)
+2025-01-09T02:20:49.547-06:00  INFO 19966 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-09T02:20:49.549-06:00  INFO 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-09T02:20:49.549-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-01-09T02:20:49.549-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-01-09T02:20:49.549-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-01-09T02:20:49.550-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7a583cff
+2025-01-09T02:20:49.550-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2aea0dd6
+2025-01-09T02:20:49.550-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-09T02:20:49.550-06:00  INFO 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-09T02:20:49.556-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/reports/transactions", parameters={}
+2025-01-09T02:20:49.562-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.dharmik.finance.reporting.ReportController#generateTransactionReport()
+2025-01-09T02:20:49.575-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8080/api/transactions
+2025-01-09T02:20:49.582-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-01-09T02:20:49.709-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.client.RestTemplate              : Response 200 OK
+2025-01-09T02:20:49.710-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.client.RestTemplate              : Reading to [java.util.List<?>]
+2025-01-09T02:20:49.993-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:application/octet-stream' in response
+2025-01-09T02:20:49.994-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{80, 75, 3, 4, 20, 0, 8, 8, 8, 0, -104, 18, 41, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 0, 0, (truncated)...]
+2025-01-09T02:20:49.996-06:00 DEBUG 19966 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

@@ -1,13 +1,12 @@
-package com.dharmik.finance.personalfinancetracker;
+package com.dharmik.finance.reporting;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PersonalFinanceTrackerApplication {
+public class ReportServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PersonalFinanceTrackerApplication.class, args);
+        SpringApplication.run(ReportServiceApplication.class, args);
     }
-
 }

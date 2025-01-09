@@ -1,0 +1,38 @@
+### GET all transactions
+GET http://localhost:8080/api/transactions
+
+### POST create a new transaction
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+
+{
+  "description": "Groceries",
+  "amount": 50.0,
+  "date": "2025-01-08",
+  "type": "Expense"
+}
+
+### POST create a new Income transaction
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+
+{
+  "description": "Salary",
+  "amount": 500.0,
+  "date": "2025-01-08",
+  "type": "Income"
+}
+
+### PUT update an existing transaction
+PUT http://localhost:8080/api/transactions/1
+Content-Type: application/json
+
+{
+  "description": "Updated Groceries",
+  "amount": 75.0,
+  "date": "2025-01-09",
+  "type": "Expense"
+}
+
+### DELETE delete a transaction
+DELETE http://localhost:8080/api/transactions/1

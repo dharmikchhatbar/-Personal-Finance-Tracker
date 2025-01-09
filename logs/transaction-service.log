@@ -1,0 +1,259 @@
+2025-01-09T01:53:23.452-06:00  INFO 19498 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Starting PersonalFinanceTrackerApplication using Java 19.0.2 with PID 19498 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/transaction-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T01:53:23.453-06:00  INFO 19498 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T01:53:23.482-06:00  INFO 19498 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T01:53:23.482-06:00  INFO 19498 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T01:53:23.730-06:00  INFO 19498 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-09T01:53:23.750-06:00  INFO 19498 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2025-01-09T01:53:23.971-06:00  INFO 19498 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-09T01:53:23.976-06:00  INFO 19498 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T01:53:23.976-06:00  INFO 19498 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T01:53:23.998-06:00  INFO 19498 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T01:53:23.998-06:00  INFO 19498 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 516 ms
+2025-01-09T01:53:24.069-06:00  INFO 19498 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-09T01:53:24.095-06:00  INFO 19498 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2025-01-09T01:53:24.096-06:00  INFO 19498 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-01-09T01:53:24.150-06:00  INFO 19498 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T01:53:24.211-06:00  INFO 19498 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-09T01:53:24.221-06:00  INFO 19498 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-09T01:53:24.399-06:00  INFO 19498 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7170f03f
+2025-01-09T01:53:24.399-06:00  INFO 19498 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-09T01:53:24.522-06:00  INFO 19498 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T01:53:24.783-06:00  INFO 19498 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-09T01:53:24.844-06:00  INFO 19498 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T01:53:24.954-06:00  WARN 19498 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-09T01:53:25.003-06:00 DEBUG 19498 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-09T01:53:25.039-06:00 DEBUG 19498 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-01-09T01:53:25.050-06:00 DEBUG 19498 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-01-09T01:53:25.054-06:00 DEBUG 19498 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-09T01:53:25.097-06:00  INFO 19498 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-09T01:53:25.113-06:00  INFO 19498 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-09T01:53:25.118-06:00  INFO 19498 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Started PersonalFinanceTrackerApplication in 1.836 seconds (process running for 2.163)
+2025-01-09T01:55:21.281-06:00  INFO 19498 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T01:55:21.283-06:00  INFO 19498 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-09T01:55:21.285-06:00  INFO 19498 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-09T01:55:38.389-06:00  INFO 19548 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Starting PersonalFinanceTrackerApplication using Java 19.0.2 with PID 19548 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/transaction-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T01:55:38.390-06:00  INFO 19548 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T01:55:38.416-06:00  INFO 19548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T01:55:38.416-06:00  INFO 19548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T01:55:38.655-06:00  INFO 19548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-09T01:55:38.674-06:00  INFO 19548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2025-01-09T01:55:38.896-06:00  INFO 19548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-09T01:55:38.901-06:00  INFO 19548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T01:55:38.901-06:00  INFO 19548 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T01:55:38.924-06:00  INFO 19548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T01:55:38.924-06:00  INFO 19548 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 508 ms
+2025-01-09T01:55:38.994-06:00  INFO 19548 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-09T01:55:39.019-06:00  INFO 19548 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2025-01-09T01:55:39.020-06:00  INFO 19548 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-01-09T01:55:39.073-06:00  INFO 19548 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T01:55:39.132-06:00  INFO 19548 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-09T01:55:39.140-06:00  INFO 19548 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-09T01:55:39.272-06:00  INFO 19548 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fed8926
+2025-01-09T01:55:39.273-06:00  INFO 19548 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-09T01:55:39.376-06:00  INFO 19548 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T01:55:39.626-06:00  INFO 19548 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-09T01:55:39.655-06:00  INFO 19548 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T01:55:39.764-06:00  WARN 19548 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-09T01:55:39.806-06:00 DEBUG 19548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-09T01:55:39.838-06:00 DEBUG 19548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-01-09T01:55:39.850-06:00 DEBUG 19548 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-01-09T01:55:39.855-06:00 DEBUG 19548 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-09T01:55:39.902-06:00  INFO 19548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-09T01:55:39.916-06:00  INFO 19548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-09T01:55:39.921-06:00  INFO 19548 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Started PersonalFinanceTrackerApplication in 1.685 seconds (process running for 1.97)
+2025-01-09T01:56:12.510-06:00  INFO 19548 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-09T01:56:12.510-06:00  INFO 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-09T01:56:12.511-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-01-09T01:56:12.511-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-01-09T01:56:12.511-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-01-09T01:56:12.512-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@432e5dd8
+2025-01-09T01:56:12.512-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3434558f
+2025-01-09T01:56:12.512-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-09T01:56:12.512-06:00  INFO 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-09T01:56:12.519-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/transactions", parameters={}
+2025-01-09T01:56:12.527-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.dharmik.finance.transaction.TransactionController#getAllTransactions()
+2025-01-09T01:56:12.610-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2025-01-09T01:56:12.611-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.dharmik.finance.transaction.Transaction@7d4a109, com.dharmik.finance.transaction.Transaction@67 (truncated)...]
+2025-01-09T01:56:12.630-06:00 DEBUG 19548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-01-09T01:57:28.846-06:00  INFO 19548 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T01:57:28.848-06:00  INFO 19548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-09T01:57:28.850-06:00  INFO 19548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-09T01:59:24.531-06:00  INFO 19584 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Starting PersonalFinanceTrackerApplication using Java 19.0.2 with PID 19584 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/transaction-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T01:59:24.532-06:00  INFO 19584 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T01:59:24.557-06:00  INFO 19584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T01:59:24.557-06:00  INFO 19584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T01:59:24.799-06:00  INFO 19584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-09T01:59:24.819-06:00  INFO 19584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2025-01-09T01:59:25.037-06:00  INFO 19584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-09T01:59:25.041-06:00  INFO 19584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T01:59:25.041-06:00  INFO 19584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T01:59:25.068-06:00  INFO 19584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T01:59:25.068-06:00  INFO 19584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 511 ms
+2025-01-09T01:59:25.147-06:00  INFO 19584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-09T01:59:25.171-06:00  INFO 19584 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2025-01-09T01:59:25.172-06:00  INFO 19584 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-01-09T01:59:25.223-06:00  INFO 19584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T01:59:25.281-06:00  INFO 19584 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-09T01:59:25.290-06:00  INFO 19584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-09T01:59:25.429-06:00  INFO 19584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6295ad01
+2025-01-09T01:59:25.430-06:00  INFO 19584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-09T01:59:25.539-06:00  INFO 19584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T01:59:25.789-06:00  INFO 19584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-09T01:59:25.824-06:00  INFO 19584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T01:59:25.929-06:00  WARN 19584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-09T01:59:25.976-06:00 DEBUG 19584 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-09T01:59:26.012-06:00 DEBUG 19584 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-01-09T01:59:26.024-06:00 DEBUG 19584 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-01-09T01:59:26.030-06:00 DEBUG 19584 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-09T01:59:26.073-06:00  INFO 19584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-09T01:59:26.088-06:00  INFO 19584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-09T01:59:26.093-06:00  INFO 19584 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Started PersonalFinanceTrackerApplication in 1.763 seconds (process running for 2.126)
+2025-01-09T02:05:53.367-06:00  INFO 19584 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:05:53.371-06:00  INFO 19584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-09T02:05:53.377-06:00  INFO 19584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-09T02:07:06.616-06:00  INFO 19704 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Starting PersonalFinanceTrackerApplication using Java 19.0.2 with PID 19704 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/transaction-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T02:07:06.617-06:00  INFO 19704 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T02:07:06.642-06:00  INFO 19704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T02:07:06.642-06:00  INFO 19704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T02:07:06.875-06:00  INFO 19704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-09T02:07:06.894-06:00  INFO 19704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2025-01-09T02:07:07.102-06:00  INFO 19704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-09T02:07:07.106-06:00  INFO 19704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T02:07:07.106-06:00  INFO 19704 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T02:07:07.127-06:00  INFO 19704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T02:07:07.128-06:00  INFO 19704 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 485 ms
+2025-01-09T02:07:07.196-06:00  INFO 19704 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-09T02:07:07.218-06:00  INFO 19704 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2025-01-09T02:07:07.219-06:00  INFO 19704 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-01-09T02:07:07.269-06:00  INFO 19704 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T02:07:07.321-06:00  INFO 19704 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-09T02:07:07.329-06:00  INFO 19704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-09T02:07:07.465-06:00  INFO 19704 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a08ec84
+2025-01-09T02:07:07.466-06:00  INFO 19704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-09T02:07:07.575-06:00  INFO 19704 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T02:07:07.832-06:00  INFO 19704 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-09T02:07:07.863-06:00  INFO 19704 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:07:07.974-06:00  WARN 19704 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-09T02:07:08.016-06:00 DEBUG 19704 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-09T02:07:08.050-06:00 DEBUG 19704 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-01-09T02:07:08.062-06:00 DEBUG 19704 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-01-09T02:07:08.067-06:00 DEBUG 19704 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-09T02:07:08.112-06:00  INFO 19704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-09T02:07:08.127-06:00  INFO 19704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-09T02:07:08.132-06:00  INFO 19704 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Started PersonalFinanceTrackerApplication in 1.669 seconds (process running for 2.002)
+2025-01-09T02:09:33.782-06:00  INFO 19704 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:09:33.784-06:00  INFO 19704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-09T02:09:33.787-06:00  INFO 19704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-09T02:09:49.072-06:00  INFO 19746 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Starting PersonalFinanceTrackerApplication using Java 19.0.2 with PID 19746 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/transaction-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T02:09:49.073-06:00  INFO 19746 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T02:09:49.100-06:00  INFO 19746 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T02:09:49.100-06:00  INFO 19746 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T02:09:49.339-06:00  INFO 19746 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-09T02:09:49.358-06:00  INFO 19746 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2025-01-09T02:09:49.567-06:00  INFO 19746 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-09T02:09:49.572-06:00  INFO 19746 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T02:09:49.572-06:00  INFO 19746 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T02:09:49.596-06:00  INFO 19746 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T02:09:49.596-06:00  INFO 19746 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 496 ms
+2025-01-09T02:09:49.667-06:00  INFO 19746 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-09T02:09:49.687-06:00  INFO 19746 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2025-01-09T02:09:49.688-06:00  INFO 19746 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-01-09T02:09:49.737-06:00  INFO 19746 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T02:09:49.788-06:00  INFO 19746 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-09T02:09:49.795-06:00  INFO 19746 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-09T02:09:49.935-06:00  INFO 19746 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5118714a
+2025-01-09T02:09:49.935-06:00  INFO 19746 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-09T02:09:50.039-06:00  INFO 19746 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T02:09:50.285-06:00  INFO 19746 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-09T02:09:50.321-06:00  INFO 19746 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:09:50.430-06:00  WARN 19746 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-09T02:09:50.472-06:00 DEBUG 19746 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-09T02:09:50.507-06:00 DEBUG 19746 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-01-09T02:09:50.519-06:00 DEBUG 19746 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-01-09T02:09:50.524-06:00 DEBUG 19746 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-09T02:09:50.569-06:00  INFO 19746 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-09T02:09:50.583-06:00  INFO 19746 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-09T02:09:50.588-06:00  INFO 19746 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Started PersonalFinanceTrackerApplication in 1.664 seconds (process running for 2.006)
+2025-01-09T02:13:03.159-06:00  INFO 19746 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:13:03.163-06:00  INFO 19746 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-09T02:13:03.167-06:00  INFO 19746 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-09T02:13:07.161-06:00  INFO 19810 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Starting PersonalFinanceTrackerApplication using Java 19.0.2 with PID 19810 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/transaction-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T02:13:07.162-06:00  INFO 19810 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T02:13:07.189-06:00  INFO 19810 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T02:13:07.189-06:00  INFO 19810 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T02:13:07.440-06:00  INFO 19810 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-09T02:13:07.460-06:00  INFO 19810 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2025-01-09T02:13:07.669-06:00  INFO 19810 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-09T02:13:07.674-06:00  INFO 19810 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T02:13:07.674-06:00  INFO 19810 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T02:13:07.695-06:00  INFO 19810 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T02:13:07.695-06:00  INFO 19810 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 506 ms
+2025-01-09T02:13:07.764-06:00  INFO 19810 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-09T02:13:07.786-06:00  INFO 19810 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2025-01-09T02:13:07.788-06:00  INFO 19810 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-01-09T02:13:07.839-06:00  INFO 19810 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T02:13:07.893-06:00  INFO 19810 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-09T02:13:07.902-06:00  INFO 19810 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-09T02:13:08.038-06:00  INFO 19810 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@680cf87b
+2025-01-09T02:13:08.039-06:00  INFO 19810 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-09T02:13:08.142-06:00  INFO 19810 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T02:13:08.389-06:00  INFO 19810 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-09T02:13:08.423-06:00  INFO 19810 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:13:08.535-06:00  WARN 19810 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-09T02:13:08.582-06:00 DEBUG 19810 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-09T02:13:08.620-06:00 DEBUG 19810 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-01-09T02:13:08.632-06:00 DEBUG 19810 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-01-09T02:13:08.637-06:00 DEBUG 19810 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-09T02:13:08.682-06:00  INFO 19810 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-09T02:13:08.697-06:00  INFO 19810 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-09T02:13:08.703-06:00  INFO 19810 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Started PersonalFinanceTrackerApplication in 1.693 seconds (process running for 2.01)
+2025-01-09T02:14:00.997-06:00  INFO 19810 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:14:00.999-06:00  INFO 19810 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-09T02:14:01.001-06:00  INFO 19810 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-09T02:20:15.746-06:00  INFO 19953 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Starting PersonalFinanceTrackerApplication using Java 19.0.2 with PID 19953 (/Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker/transaction-service/target/classes started by dharmikparthivchhatbar in /Users/dharmikparthivchhatbar/IdeaProjects/PersonalFinanceTracker)
+2025-01-09T02:20:15.747-06:00  INFO 19953 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-09T02:20:15.770-06:00  INFO 19953 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-09T02:20:15.770-06:00  INFO 19953 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-09T02:20:16.002-06:00  INFO 19953 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-09T02:20:16.021-06:00  INFO 19953 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2025-01-09T02:20:16.234-06:00  INFO 19953 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-09T02:20:16.238-06:00  INFO 19953 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-09T02:20:16.238-06:00  INFO 19953 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2025-01-09T02:20:16.259-06:00  INFO 19953 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-09T02:20:16.259-06:00  INFO 19953 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 489 ms
+2025-01-09T02:20:16.327-06:00  INFO 19953 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-09T02:20:16.350-06:00  INFO 19953 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2025-01-09T02:20:16.351-06:00  INFO 19953 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-01-09T02:20:16.401-06:00  INFO 19953 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T02:20:16.457-06:00  INFO 19953 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-09T02:20:16.466-06:00  INFO 19953 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-09T02:20:16.603-06:00  INFO 19953 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@102ec70f
+2025-01-09T02:20:16.603-06:00  INFO 19953 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-09T02:20:16.707-06:00  INFO 19953 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-01-09T02:20:16.951-06:00  INFO 19953 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-09T02:20:16.984-06:00  INFO 19953 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:20:17.106-06:00  WARN 19953 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-09T02:20:17.153-06:00 DEBUG 19953 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-09T02:20:17.191-06:00 DEBUG 19953 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-01-09T02:20:17.203-06:00 DEBUG 19953 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-01-09T02:20:17.207-06:00 DEBUG 19953 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-09T02:20:17.250-06:00  INFO 19953 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-09T02:20:17.264-06:00  INFO 19953 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-09T02:20:17.270-06:00  INFO 19953 --- [restartedMain] c.d.f.PersonalFinanceTrackerApplication  : Started PersonalFinanceTrackerApplication in 1.677 seconds (process running for 2.005)
+2025-01-09T02:20:49.607-06:00  INFO 19953 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-09T02:20:49.607-06:00  INFO 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-09T02:20:49.607-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-01-09T02:20:49.607-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-01-09T02:20:49.607-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-01-09T02:20:49.608-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5921a315
+2025-01-09T02:20:49.608-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3065b72a
+2025-01-09T02:20:49.608-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-09T02:20:49.608-06:00  INFO 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-09T02:20:49.611-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/transactions", parameters={}
+2025-01-09T02:20:49.615-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.dharmik.finance.transaction.TransactionController#getAllTransactions()
+2025-01-09T02:20:49.690-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json]
+2025-01-09T02:20:49.690-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.dharmik.finance.transaction.Transaction@39eb92de, com.dharmik.finance.transaction.Transaction@6 (truncated)...]
+2025-01-09T02:20:49.709-06:00 DEBUG 19953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-01-09T02:21:14.730-06:00  INFO 19953 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-09T02:21:14.733-06:00  INFO 19953 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-09T02:21:14.738-06:00  INFO 19953 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
