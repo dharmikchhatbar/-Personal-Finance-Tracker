@@ -1,8 +1,10 @@
 package com.dharmik.finance.transaction;
 
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -15,10 +17,19 @@ public class TransactionController {
         this.transactionService = transactionService;
     }
 
-    // GET all transactions
+    // GET transactions with optional date filters
     @GetMapping
-    public List<Transaction> getAllTransactions() {
-        return transactionService.getAllTransactions();
+    public List<Transaction> getTransactions(
+            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate startDate,
+            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate endDate) {
+
+        // If no date filters are provided, return all transactions
+        if (startDate == null && endDate == null) {
+            return transactionService.getAllTransactions();
+        }
+
+        // Return filtered transactions based on date range
+        return transactionService.getTransactionsByDateRange(startDate, endDate);
     }
 
     // POST create a new transaction
