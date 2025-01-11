@@ -63,9 +63,3 @@ GET http://localhost:8081/api/reports/excel-report?startDate=2025-01-01&endDate=
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczNjU2MzYxNywiZXhwIjoxNzM2NTk5NjE3fQ.8nh9ld8U7LkUuU27OiRBLkr4gESpbgW37-0wgEvndpY
 
 ###
-POST http://127.0.0.1:5000/predict
-Content-Type: application/json
-
-{
-  "day": 4
-}
